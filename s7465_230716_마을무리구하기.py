@@ -1,3 +1,4 @@
+
 '''
 창용마을에는 N명의 사람이 살고 있다.
 사람은 1번부터 N번까지 번호가 있다.
@@ -19,12 +20,38 @@ import sys
 inputversion = "5"
 sys.stdin = open(".\input\input"+inputversion+".txt", "r")
 
-print("START")
 for T in range(int(input())):
     n, m = map(int,input().split())
-    muri = set([])
+    town = []
+    man_check = [1] * n
     for i in range(m):
+        check_list = []
+        muri_find = False
         man1, man2 = map(int,input().split())
-        for muri_detail in muri:
-            if man1 in muri_detail or man2 in muri_detail:
-                print(man1)
+        man_check[man1-1]=0
+        man_check[man2-1]=0
+        if len(town) == 0:
+            town.append([man1,man2])
+        else :
+            for muri_num in range(len(town)):
+                if man1 in town[muri_num] or man2 in town[muri_num]:
+                    muri_find = True
+                    check_list.append(muri_num)
+                    if man1 in town[muri_num] and not man2 in town[muri_num] :
+                        town[muri_num].append(man2)
+                    elif man2 in town[muri_num] and not man1 in town[muri_num] :
+                        town[muri_num].append(man1)
+            if not muri_find:
+                town.append([man1,man2])
+                muri_find=True
+            elif len(check_list) > 1 :
+                delete_muri , tmp = [], []
+                for k in check_list :
+                    tmp += town[k]
+                    delete_muri.append(town[k])
+                for k in delete_muri :
+                    town.remove(k)
+                tmp = set(tmp)
+                tmp = list(tmp)
+                town.append(tmp)
+    print(f"#{T+1} {len(town)+(sum(man_check))}")

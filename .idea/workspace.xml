@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b327e91c-aba3-42b1-aa18-0d26f4cd0f9a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/230713_s12712_파리잡기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/230714_s1974_스도쿠검사.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/230715_s1204_최빈수찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/230715_s1961_배열돌리기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/230716_s1959_최대배열곱.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/230716_s7465_마을무리구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s7465_230716_마을무리구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/s7465_230716_마을무리구하기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager" selected="Python.s7465_230716_마을무리구하기">
     <configuration name="230716_s1959_최대배열곱" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -169,20 +167,17 @@
       <method v="2" />
     </configuration>
     <configuration name="s7465_230716_마을무리구하기" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="coding-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\python3\pypy3.7-v7.3.4-win64\pypy3.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s7465_230716_마을무리구하기.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -220,5 +215,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
