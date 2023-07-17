@@ -19,9 +19,10 @@ import sys
 inputversion = "5"
 sys.stdin = open(".\input\input"+inputversion+".txt", "r")
 
+print("START")
 for T in range(int(input())):
     n, m = map(int,input().split())
-    muri = []
+    muri = set([])
     for i in range(m):
         man1, man2 = map(int,input().split())
         for muri_detail in muri:
