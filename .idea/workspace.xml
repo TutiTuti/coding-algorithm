@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b327e91c-aba3-42b1-aa18-0d26f4cd0f9a" name="Changes" comment="Changes" />
+    <list default="true" id="b327e91c-aba3-42b1-aa18-0d26f4cd0f9a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/s4193_230718_수영리그.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
