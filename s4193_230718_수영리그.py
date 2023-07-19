@@ -27,8 +27,13 @@ move_row = [1,-1,0,0,0] # x축을 의미
 
 # ( 현재좌표 row, col ) ( 타겟좌표 row, col ) (현재 움직인 과정 )
 def move_location(now_row, now_col, target_row, target_col, moving_list, time=0):
+    next_col = 0
+    next_row = 0
     for i in range(5):
         print("TT")
+        next_row = now_row + move_row[i]
+        next_col = now_col + move_col[i]
+
 
 
 for T in range(int(input())):
@@ -37,6 +42,7 @@ for T in range(int(input())):
     start_row, start_col = map(int,input().split())
     end_row, end_col = map(int,input().split())
     move_process = []
+    move_process.append([start_col,start_row])
     move_process = move_location(start_row, start_col, end_row, end_col, move_process)
 
 
