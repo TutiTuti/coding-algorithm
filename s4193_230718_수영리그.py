@@ -30,10 +30,9 @@ def move_location(now_row, now_col, target_row, target_col, moving_list, time=0)
     next_col = 0
     next_row = 0
     for i in range(5):
-        #print("TT")
         next_row = now_row + move_row[i]
         next_col = now_col + move_col[i]
-
+        if next_row >= n or next_col >= n or next_row or next_col
 
 
 for T in range(int(input())):
