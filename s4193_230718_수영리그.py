@@ -27,12 +27,22 @@ move_col = [0,0,-1,1,0] # y축을 의미
 
 # ( 현재좌표 row, col ) ( 타겟좌표 row, col ) (현재 움직인 과정 )
 def move_location(now_row, now_col, target_row, target_col, moving_list, time=0):
+    return_move =[]
     next_col = 0
     next_row = 0
-    for i in range(5):
-        next_row = now_row + move_row[i]
-        next_col = now_col + move_col[i]
-        if next_row >= n or next_col >= n or next_row or next_col
+    # 강제 재귀함수 종료
+    if moving_list[0][0] == -99:
+        return [[-99]]
+    for w in moving_list:
+        now_r = w[-1][0]
+        now_c = w[-1][1]
+        for i in range(5):
+            next_row = now_r + move_row[i]
+            next_col = now_c + move_col[i]
+            if next_row >= n or next_col >= n or next_row < 0 or next_col < 0:
+                return_move.append(
+                    w.append([now_row, now_col])
+                )
 
 
 for T in range(int(input())):
