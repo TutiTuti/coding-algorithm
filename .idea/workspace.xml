@@ -8,9 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/coding-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding-algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s4193_230718_수영리그.py" beforeDir="false" afterPath="$PROJECT_DIR$/s4193_230718_수영리그.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b0000_230724_오목.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s4193_230718_수영리그.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Python.problem4">
-    <configuration name="AA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.testpy">
+    <configuration name="b0000_230724_오목X" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\20911\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.9 (pythonProject1)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b0000_230724_오목X.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -127,19 +118,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s4193_230718_수영리그" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s1974_230714_스도쿠검사" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding-algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\20911\PycharmProjects\DeeplearningSample\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s4193_230718_수영리그.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s1974_230714_스도쿠검사.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,14 +167,14 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\python3\pypy3.7-v7.3.4-win64\pypy3.exe" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/testpy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../testpy.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -194,18 +185,18 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.s7465_230716_마을무리구하기" />
       <item itemvalue="Python.problem4" />
-      <item itemvalue="Python.AA" />
       <item itemvalue="Python.problem1" />
-      <item itemvalue="Python.s4193_230718_수영리그" />
+      <item itemvalue="Python.b0000_230724_오목X" />
+      <item itemvalue="Python.s1974_230714_스도쿠검사" />
       <item itemvalue="Python.testpy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testpy" />
+        <item itemvalue="Python.b0000_230724_오목X" />
+        <item itemvalue="Python.s1974_230714_스도쿠검사" />
+        <item itemvalue="Python.b0000_230724_오목X" />
         <item itemvalue="Python.problem4" />
-        <item itemvalue="Python.problem1" />
-        <item itemvalue="Python.AA" />
-        <item itemvalue="Python.testpy" />
-        <item itemvalue="Python.testpy" />
       </list>
     </recent_temporary>
   </component>
@@ -230,5 +221,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
