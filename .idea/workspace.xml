@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b327e91c-aba3-42b1-aa18-0d26f4cd0f9a" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b0000_230724_오목X.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s11885_230817_pizza.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1204_230715_최빈수찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1206_230731_View.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1219_230810_길찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1225_230817_암호생성기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1961_230715_배열돌리기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1974_230714_스도쿠검사.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -193,13 +201,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.s7465_230716_마을무리구하기" />
-      <item itemvalue="Python.problem1" />
       <item itemvalue="Python.b0000_230724_오목X" />
-      <item itemvalue="Python.s1974_230714_스도쿠검사" />
-      <item itemvalue="Python.testpy" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.problem1" />
       <item itemvalue="Python.s1206_230731_View" />
+      <item itemvalue="Python.s1974_230714_스도쿠검사" />
+      <item itemvalue="Python.s7465_230716_마을무리구하기" />
+      <item itemvalue="Python.testpy" />
     </list>
     <recent_temporary>
       <list>
@@ -232,5 +240,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -10,7 +10,6 @@ def enq(data):
     inpizza[rear] = data
 
 
-
 def deq():
     global front
     front = (front+1)%(size+1)
