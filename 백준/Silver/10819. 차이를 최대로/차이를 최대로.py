@@ -1,24 +1,23 @@
-def find(v, d, a):
-    global max
-    if d == N:
-        tmp_s = 0
+def find(n, case):
+    global ans
+    if n == N:
+        tmp = 0
         for i in range(N-1):
-            tmp_s += abs(a[i] - a[i+1])
-        if tmp_s > max:
-            max = tmp_s
+            tmp += abs(case[i] - case[i+1])
+        ans = max(ans, tmp)
     else:
+        tmpCase = case[:]
         for i in range(N):
-            if v[i] == 0:
-                B = v[:]
-                B[i] = 1
-                C = a[:]
-                C.append(arr[i])
-                find(B, d+1, C)
+            tmp = tmpCase[n]
+            tmpCase[n] = tmpCase[i]
+            tmpCase[i] = tmp
+            find(n+1, tmpCase)
 
 N = int(input())
-arr = list(map(int,input().split()))
-ans = []
-visited = [0] * N
-max = 0
-find(visited, 0, ans)
-print(max)
+arr = list(map(int, input().split()))
+
+ans = 0
+
+find(0, arr)
+
+print(ans)
