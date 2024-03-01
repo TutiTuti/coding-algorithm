@@ -6,18 +6,14 @@ def find(n, case):
             tmp += abs(case[i] - case[i+1])
         ans = max(ans, tmp)
     else:
-        tmpCase = case[:]
         for i in range(N):
-            tmp = tmpCase[n]
-            tmpCase[n] = tmpCase[i]
-            tmpCase[i] = tmp
-            find(n+1, tmpCase)
+            case[n], case[i] = case[i], case[n]
+            find(n+1, case)
+            case[n], case[i] = case[i], case[n]
+
 
 N = int(input())
 arr = list(map(int, input().split()))
-
 ans = 0
-
 find(0, arr)
-
 print(ans)
