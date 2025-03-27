@@ -1,25 +1,19 @@
-import sys
-import math 
-n, m = map(int, sys.stdin.readline().split())
-elevators = []
-for i in range(m):
-    a,b = map(int, sys.stdin.readline().split())
-    elevators.append((a,b))
+import math;
+n, m = map(int, input().split())
+answer = 1_000_000 * 1_000_000
 
 
-tmp = []
+for _ in range(m):
+    u, d = map(int, input().split())
+    floor = 0
+    lcm = math.lcm(u, d)
+    k =( n % (lcm //u + lcm //d)) + lcm //u + lcm //d
 
-for elevator in elevators:
-    current = 0
-    lcm = math.lcm(elevator[0], elevator[1])
-    k =( n % (lcm //elevator[0] + lcm //elevator[1])) + lcm //elevator[0] + lcm //elevator[1]
+    for _ in range(k):
+        if floor > d:
+            floor -= d
+        else:
+            floor += u
+    answer = min(answer, floor)
 
-    for j in range(k):
-        if current > elevator[1] : 
-            current -= elevator[1]
-        else :
-            current += elevator[0]
-
-    tmp.append(current)
-
-print(min(tmp))
+print(answer)
