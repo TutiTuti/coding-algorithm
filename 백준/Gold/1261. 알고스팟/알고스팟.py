@@ -1,26 +1,30 @@
+import heapq
 
-from collections import deque
 INF = 1e8
 dx = [1, 0, 0, -1]
 dy = [0, 1, -1, 0]
 N, M = map(int, input().split())
-
 # 공백 없으면 strip
 miro = [list(map(int, input().strip())) for _ in range(M)]
-dist = [[INF] * N for _ in range(M)]
-dist[0][0] = 0
-q = deque()
-q.append([0, 0])
-while q:
-    x, y = q.popleft()
-    for i in range(4):
-        nx, ny = x + dx[i], y + dy[i]
-        if 0 <= nx < N and 0 <= ny < M:
-            cost = miro[ny][nx]
-            if dist[y][x] + cost < dist[ny][nx]:
-                dist[ny][nx] = dist[y][x] + cost
-                if cost:
-                    q.append([nx, ny])
-                else:
-                    q.appendleft([nx, ny])
-print(dist[M-1][N-1])
+
+def Dijkstra():
+    dist_Dstra = [[INF] * N for _ in range(M)]
+    dist_Dstra[0][0] = 0
+    h = []
+    # cost, row ,col
+    heapq.heappush(h, [0, 0, 0])
+    while h:
+        cost, r, c = heapq.heappop(h)
+        if cost > dist_Dstra[r][c]:
+            continue
+
+        for i in range(4):
+            nr, nc = r + dx[i], c + dy[i]
+            if 0 <= nr < M and 0 <= nc < N:
+                new_cost = cost + miro[nr][nc]
+                if dist_Dstra[nr][nc] > new_cost:
+                    dist_Dstra[nr][nc] = new_cost
+                    heapq.heappush(h, [new_cost, nr, nc])
+    print(dist_Dstra[M-1][N-1])
+
+Dijkstra()
